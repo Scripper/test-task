@@ -1,0 +1,22 @@
+.user {
+  display: flex;
+  background-color: #f1eeee;
+  padding: 30px;
+  @media (max-width: 566px) {
+    flex-direction: column;
+    padding: 15px;
+  }
+}
+.userInfo {
+  margin-left: 20px;
+  word-break: break-all;
+  ul {
+    margin-top: 0;
+  }
+  span {
+    font-weight: bold;
+  }
+  @media (max-width: 566px) {
+    margin-left: 0;
+  }
+}
